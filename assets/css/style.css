@@ -8,6 +8,11 @@ body {
   margin: 0 150px;
 }
 
+.d-flex-center {
+  display: flex;
+  justify-content: center;
+}
+
 .cabecalho {
   padding: 20px 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.4);
@@ -158,6 +163,13 @@ body {
   font-weight: bold;
 }
 
+.secaoTransacao__pix {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .secaoTransacao__pix img {
   width: 100%;
   max-width: 150px;
@@ -183,6 +195,9 @@ body {
 }
 
 .secaoTransacao__boleto {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .secaoTransacao__boleto img {
@@ -213,6 +228,9 @@ body {
 }
 
 .secaoTransacao__cobrar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .secaoTransacao__cobrar img {
   width: 100%;
