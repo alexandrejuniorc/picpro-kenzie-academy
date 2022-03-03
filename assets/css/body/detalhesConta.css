@@ -117,4 +117,67 @@
   width: 50px;
 }
 
+/* icones */
+
+.opcoesTransacoes figure {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  height: 50px;
+  width: 50px;
+}
+
+.qrCode figure {
+  background-image: url('../../img/qrcode.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  height: 50px;
+  width: 50px;
+}
+.pix figure {
+  background-image: url('../../img/pix.png');
+}
+.pagarBoleto figure {
+  background-image: url('../../img/codigo.png');
+  width: 100%;
+  max-width: 65px;
+}
+
+.cobrar figure {
+  background-image: url('../../img/cobrar-icon.png');
+  width: 100%;
+  max-width: 60px;
+}
+
 /* hover */
+.opcoesTransacoes:hover {
+  background-color: #fff;
+}
+
+.opcoesTransacoes:hover p {
+  color: #1f6f54;
+}
+
+.qrCode:hover figure {
+  background-image: url('../../img/qrcode-verde.png');
+}
+
+.pix:hover figure {
+  background-image: url('../../img/pix-verde.png');
+}
+
+.pagarBoleto:hover figure {
+  background-image: url('../../img/codigo-icon.png');
+}
+
+.cobrar:hover figure {
+  background-image: url('../../img/cobrar-verde.png');
+}
+
+.opcoesTransacoes figure img {
+  width: 100%;
+  max-width: 25px;
+  height: 20px;
+  opacity: 0;
+}
